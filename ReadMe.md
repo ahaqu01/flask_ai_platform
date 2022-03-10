@@ -22,7 +22,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch
 - 详见requirement.txt
 - 安装：
 ```dockerfile
-pip install requirement.txt
+pip install -r requirement.txt
 ```
 #### 2.2.2 其他依赖
 - mysql 5.7、redis 4.0.9
@@ -90,7 +90,7 @@ POST=> hostname:port/ai_service/predict/
 #### 4.2.4 mask rcnn
 - 本地版本： 当前项目 algorithm/mask_rcnn
     - 功能：
-        - 基于现有模型进行预测和实例分割，代码待加入
+        - 基于现有模型进行预测和实例分割
         - 基于coco数据集迁移学习训练、验证、预测分割，代码待加入
 - 远程接口：当前项目： remote_ai_interface/cv
     - 待接口设计后接入系统

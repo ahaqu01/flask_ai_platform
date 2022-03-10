@@ -49,12 +49,7 @@ image_transforms = {
 
 # 数据集所在目录路径
 data_dir = ''
-# train路径
-train_dir = data_dir + 'train/'
-# val路径
-val_dir = data_dir + 'val/'
-# test路径
-test_dir = data_dir + 'test/'
+
 
 def set_data_dir(real_data_dir):
     data_dir = real_data_dir

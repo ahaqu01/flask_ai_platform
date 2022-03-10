@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.7.11 (sftp://zhouyuhua@192.168.1.44:22/home/zhouyuhua/anaconda3/envs/pytorch_env/bin/python)" project-jdk-type="Python SDK" />
+</project>
